@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link id="theme" rel="stylesheet"
+          type="text/css" href="assign.css" />
+
+      <script>
+          function toggleTheme() {
+              // Obtains an array of all <link>
+              // elements.
+              // Select your element using indexing.
+              var theme = document.getElementsByTagName('link')[0];
+
+              // Change the value of href attribute
+              // to change the css sheet.
+              if (theme.getAttribute('href') == 'assign.css') {
+                  theme.setAttribute('href', 'assign2.css');
+              } else {
+                  theme.setAttribute('href', 'assign.css');
+              }
+          }
+      </script>
+  </head>
+  <body>
+            <h1 style="text-align:center; font-size:400%">Assignment 2</h1>
+  
+
+                 <p id="Par1" style="text-align:center; background-color:#f1615c;font-size:165%;"><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. <br>Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br> Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br> Excepteur sint occaecat
+                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</b></p>
+
+                 <p id="Par2" style="text-align:center; background-color:	#9cd6ff;font-size:165%;"><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. <br>Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br> Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br> Excepteur sint occaecat
+                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</i></p>
+
+                <p id="Par3" style="text-align:center; background-color:#f5e58c;font-size:165%;"><u>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                   incididunt ut labore et dolore magna aliqua. <br>Ut enim ad minim veniam, quis nostrud
+                   exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br> Duis aute irure dolor in reprehenderit in
+                   voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br> Excepteur sint occaecat
+                   cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</u></p>
+
+               <p id="Par4" style="text-align:center; background-color:#a5f564;font-size:165%;"><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. <br>Ut enim ad minim veniam, quis nostrud
+                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br> Duis aute irure dolor in reprehenderit in
+                  voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br> Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</b><br></p>
+
+                 
+
+                  <div class="container">
+                   <div class="center">
+                        <button id=button onclick="toggleTheme('assign2.css')"> Click Me !</button>
+                     </div>
+                  </div>
+
+                 <div class="container">
+                 <div class="center">
+                    <a href="form.html"><button id="button">Go To Form</button></a></button>
+                  </div>
+                  </div>
+
+     </body>
+</html>

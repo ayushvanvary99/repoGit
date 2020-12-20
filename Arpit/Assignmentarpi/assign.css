@@ -1,0 +1,29 @@
+.container {
+  height: 50px;
+  position: relative;
+
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#button {
+display: block;
+width:150px;
+margin:10px auto;
+padding:7px 13px;
+text-align:center;
+background:purple;
+font-size:20px;
+font-family: 'Arial', sans-serif;
+color:#ffffff;
+white-space: nowrap;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+}
